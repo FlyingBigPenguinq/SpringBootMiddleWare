@@ -43,10 +43,7 @@
         </javaClientGenerator>
 
         <!-- 指定数据库表 -->
-        <table schema="" tableName="auth_token" enableCountByExample="false" enableDeleteByExample="false" enableSelectByExample="false" enableUpdateByExample="false">
-        </table>
-        <!-- <table schema="" tableName="user" enableCountByExample="false" enableDeleteByExample="false" enableSelectByExample="false" enableUpdateByExample="false">
-        </table> -->
-        <table schema="sb_middleware" tableName="user_order" enableCountByExample="false" enableDeleteByExample="false" enableSelectByExample="false" enableUpdateByExample="false"></table>
+        <table schema="sb_middleware" tableName="item" enableCountByExample="false" enableDeleteByExample="false" enableSelectByExample="false" enableUpdateByExample="false"/>
+        <table schema="sb_middleware" tableName="appendix" enableCountByExample="false" enableDeleteByExample="false" enableSelectByExample="false" enableUpdateByExample="false"/>
     </context>
 </generatorConfiguration>
