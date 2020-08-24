@@ -27,7 +27,7 @@
     values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, #{code,jdbcType=VARCHAR}, 
       #{isActive,jdbcType=INTEGER}, #{createTime,jdbcType=TIMESTAMP})
   </insert>
-  <insert id="insertSelective" parameterType="com.study.boot.SpringBootMiddleWare.model.entity.Item" >
+  <insert id="insertSelective" keyProperty="id" useGeneratedKeys="true" parameterType="com.study.boot.SpringBootMiddleWare.model.entity.Item" >
     insert into item
     <trim prefix="(" suffix=")" suffixOverrides="," >
       <if test="id != null" >

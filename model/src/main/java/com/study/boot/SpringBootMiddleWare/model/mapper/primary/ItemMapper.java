@@ -1,4 +1,4 @@
-package com.study.boot.SpringBootMiddleWare.model.mapper;
+package com.study.boot.SpringBootMiddleWare.model.mapper.primary;
 
 import com.study.boot.SpringBootMiddleWare.model.entity.Item;
 

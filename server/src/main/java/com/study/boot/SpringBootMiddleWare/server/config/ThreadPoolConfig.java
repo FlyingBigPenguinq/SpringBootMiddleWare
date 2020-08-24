@@ -1,4 +1,4 @@
-package com.study.boot.SpringBootMiddleWare.server.utils;
+package com.study.boot.SpringBootMiddleWare.server.config;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;

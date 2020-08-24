@@ -23,6 +23,17 @@ public class Appendix {
 
     private Date createTime;
 
+    public Appendix(Integer moduleId, String moduleCode, String moduleName, String name, String size, String suffix, String fileUrl, Date createTime) {
+        this.moduleId = moduleId;
+        this.moduleCode = moduleCode;
+        this.moduleName = moduleName;
+        this.name = name;
+        this.size = size;
+        this.suffix = suffix;
+        this.fileUrl = fileUrl;
+        this.createTime = createTime;
+    }
+
     public Integer getId() {
         return id;
     }

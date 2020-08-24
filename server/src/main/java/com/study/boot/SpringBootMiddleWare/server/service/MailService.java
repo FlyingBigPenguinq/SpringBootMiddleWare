@@ -2,7 +2,6 @@ package com.study.boot.SpringBootMiddleWare.server.service;
 
 import com.google.common.collect.Maps;
 import com.study.boot.SpringBootMiddleWare.model.dto.MailDto;
-import com.study.boot.SpringBootMiddleWare.model.mapper.UserMapper;
 import com.study.boot.SpringBootMiddleWare.server.utils.SendMailThread;
 import freemarker.template.Configuration;
 import freemarker.template.Template;
@@ -13,7 +12,6 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.env.Environment;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
-import org.springframework.mail.javamail.MimeMailMessage;
 import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 import org.springframework.stereotype.Service;

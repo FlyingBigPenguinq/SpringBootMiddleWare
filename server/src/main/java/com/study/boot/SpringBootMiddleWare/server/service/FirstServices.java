@@ -5,7 +5,7 @@ import com.github.pagehelper.PageInfo;
 import com.study.boot.SpringBootMiddleWare.model.dto.UserOrderDto;
 import com.study.boot.SpringBootMiddleWare.model.dto.UserOrderPageDto;
 import com.study.boot.SpringBootMiddleWare.model.entity.UserOrder;
-import com.study.boot.SpringBootMiddleWare.model.mapper.UserOrderMapper;
+import com.study.boot.SpringBootMiddleWare.model.mapper.primary.UserOrderMapper;
 import org.apache.commons.beanutils.BeanUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.joda.time.DateTime;

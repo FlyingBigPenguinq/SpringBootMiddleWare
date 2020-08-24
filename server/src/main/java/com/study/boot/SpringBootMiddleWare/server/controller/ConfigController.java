@@ -2,9 +2,8 @@ package com.study.boot.SpringBootMiddleWare.server.controller;
 
 import com.study.boot.SpringBootMiddleWare.api.response.BaseResponse;
 import com.study.boot.SpringBootMiddleWare.api.response.StatusCode;
-import com.study.boot.SpringBootMiddleWare.server.utils.ConfigProperties;
+import com.study.boot.SpringBootMiddleWare.server.config.ConfigProperties;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.env.Environment;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
