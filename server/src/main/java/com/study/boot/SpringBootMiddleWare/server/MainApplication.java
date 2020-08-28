@@ -18,8 +18,8 @@ import org.springframework.scheduling.annotation.EnableScheduling;
  * @Version V1.0
  **/
 @SpringBootApplication
-@ImportResource("classpath:/spring/spring-jdbc.xml")
-@MapperScan("com.study.boot.SpringBootMiddleWare.model.mapper")
+/*@ImportResource("classpath:/spring/spring-jdbc.xml")
+@MapperScan("com.study.boot.SpringBootMiddleWare.model.mapper")*/ //单一数据源的配置方式
 @EnableScheduling
 @EnableCaching
 @EnableAsync
